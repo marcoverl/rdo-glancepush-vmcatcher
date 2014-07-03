@@ -1,0 +1,7 @@
+# associates field dc:identifier from vmcatcher index to the desired glance image name
+declare -A vmcmapping=(
+    ["c0482bc2-bf41-5d49-a85f-a750174a186b"]="vmc-CERNVM-3.3.0-40GB"
+    ["b25c250b-637b-5622-a6fb-b0db4f2883f2"]="vmc-ScientificLinux-65-minimal"
+    ["662b0e71-3e21-5f43-b6a1-cc2f51319fa7"]="vmc-CentOS-65-minimal"
+    ["de355bfb-5781-5b0c-9ccd-9bd3d0d2be06"]="vmc-ubuntu-14.04-server-cloudimg-amd64"
+)
